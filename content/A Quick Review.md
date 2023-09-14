@@ -13,24 +13,42 @@ like
 `var myVariable;
 `
 we use semicolons to end our statements. 
-Some handy rules as to when to use semicolons are
+These are handy rules as to [[when to use semicolons]] 
 
-reference - https://www.codecademy.com/resources/blog/your-guide-to-semicolons-in-javascript/
-#### Required: When two statements are on the same line
-example var l = 0 ; i ++ <-- semicolon obligatory 
-example var l = 0  <-- semicolon optional
-i ++ <-- semicolon optional
+Data Types in JS
+String 
+Number
+Boolean
+Array
+Object
 
-#### Optional: After statements
+Operators
+| name                 | symbol  |
+| -------------------- | ------- |
+| addition             | +       |
+| subtraction          | -       |
+| multiplication       | *       |
+| division             | /       |
+| -------------------  | ------- |
+| assignment           | =       |
+| not , does not equal | !,!==   |
 
-The semicolon in JavaScript is used to separate statements, but it can be omitted if the statement is followed by a line break (or there’s only _one_ statement in a `{`block`}`).
-A statement means 1 like which tells the computer to do something 
-examples 
+
+Conditionals
+if, else statements
 ```js
-var 2;
-i = 6;
-i = 2 + 2;
-var x = 1;
-var fun = function(){...};
-alert("yu");
+
+let timePass = "anime";
+if (timePass === "anime") {
+  alert("Yay, I love anime!");
+} else {
+  alert("Awwww, but anime is my favorite…");
+}
+
 ```
+
+
+Functions
+
+functions are building reusable pieces of code 
+some functions are inbuilt and some we build ourselves
