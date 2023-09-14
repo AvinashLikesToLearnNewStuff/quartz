@@ -52,3 +52,6 @@ Functions
 
 functions are building reusable pieces of code 
 some functions are inbuilt and some we build ourselves
+
+functions look like variable names followed by parantheses
+they also take arguments, arguments are the things we put inside those parenthesis
